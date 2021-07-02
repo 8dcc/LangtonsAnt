@@ -23,3 +23,5 @@ g++ main.cpp -o LangtonsAnt.exe
 ![Small fractal](https://raw.githubusercontent.com/r4v10l1/LangtonsAnt/main/Gallery/fractal_small.bmp)
 
 ![Big fractal](https://raw.githubusercontent.com/r4v10l1/LangtonsAnt/main/Gallery/fractal_big.bmp)
+
+![Pink fractal](https://raw.githubusercontent.com/r4v10l1/LangtonsAnt/main/Gallery/fractal_pink.bmp)
