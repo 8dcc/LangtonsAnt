@@ -7,7 +7,7 @@
 using namespace std;
 
 // Define the color list
-enum color { WHITE, BLACK, RED, BAK };
+enum color { WHITE, BLACK, RED, GREEN, BAK };
 // Define the direction list
 enum direction { UP, RIGHT, DOWN, LEFT };
 
@@ -49,8 +49,10 @@ int main() {
 			turn_r();
 		} else if(colour == RED) {
 			turn_l();
-		} else if(colour == BLACK){
+		} else if(colour == GREEN) {
 			turn_l();
+		} else if(colour == BLACK){
+			turn_r();
 		}
 	}
 
@@ -100,10 +102,12 @@ int e(int i, int j) {
 
 			// Color change rules
 			if(colour == WHITE)
-				k.color = BLACK;
-			else if(colour == BLACK)
 				k.color = RED;
 			else if(colour == RED)
+				k.color = GREEN;
+			else if(colour == GREEN)
+				k.color = BLACK;
+			else if(colour == BLACK)
 				k.color = WHITE;
 
 			return colour;
@@ -112,7 +116,7 @@ int e(int i, int j) {
 
 	t.push_back(c(i, j, BLACK));
 
-	return WHITE;
+	return WHITE;  // Unkown
 }
 
 void p() {
@@ -162,10 +166,12 @@ void p() {
 				img.set_pixel(x, y, 0, 0, 0);
 			} else if(g[y][x] == RED) {
 				img.set_pixel(x, y, 255, 0, 0);
-			} else if(g[y][x] == BAK) {
-				img.set_pixel(x, y, 230, 230, 230);
-			} else {
+			} else if(g[y][x] == GREEN) {
+				img.set_pixel(x, y, 0, 255, 0);
+			} else if(g[y][x] == WHITE) {
 				img.set_pixel(x, y, 255, 255, 255);
+			} else if(g[y][x] == BAK) {
+				img.set_pixel(x, y, 210, 210, 210);
 			}
 		}
 	}
