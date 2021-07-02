@@ -14,3 +14,8 @@ g++ main.cpp -o LangtonsAnt.exe
 
 ### Changes
 * Added multiple color support.
+
+### Gallery
+ ![Vanilla](https://raw.githubusercontent.com/r4v10l1/LangtonsAnt/main/Gallery/vanilla.bmp)
+
+![2 colors](https://raw.githubusercontent.com/r4v10l1/LangtonsAnt/main/Gallery/Custom1.bmp)
