@@ -20,6 +20,7 @@ g++ main.cpp -o LangtonsAnt.exe
 
 ![66666666 step fractal](https://raw.githubusercontent.com/r4v10l1/LangtonsAnt/main/Gallery/fractal_66M.bmp)
 ![2 colors](https://raw.githubusercontent.com/r4v10l1/LangtonsAnt/main/Gallery/Custom1.bmp)
+
 ![Pink fractal](https://raw.githubusercontent.com/r4v10l1/LangtonsAnt/main/Gallery/fractal_pink.bmp)
 ![Big fractal](https://raw.githubusercontent.com/r4v10l1/LangtonsAnt/main/Gallery/fractal_big.bmp)
 ![Vanilla](https://raw.githubusercontent.com/r4v10l1/LangtonsAnt/main/Gallery/vanilla.bmp)
