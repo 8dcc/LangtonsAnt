@@ -19,3 +19,5 @@ g++ main.cpp -o LangtonsAnt.exe
  ![Vanilla](https://raw.githubusercontent.com/r4v10l1/LangtonsAnt/main/Gallery/vanilla.bmp)
 
 ![2 colors](https://raw.githubusercontent.com/r4v10l1/LangtonsAnt/main/Gallery/Custom1.bmp)
+
+![Small fractal](https://raw.githubusercontent.com/r4v10l1/LangtonsAnt/main/Gallery/fractal_small.bmp)
